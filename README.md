@@ -9,8 +9,8 @@ The executable is names wind_waker since the only song it can realistically play
 
 On the functionality:
 
-There are two threads. The first uses ALSA to play notes generated with additive synthesis. Envelopes were never implemented as it was agreed upon by members of the class that cutting the sound wave off sounded crisper. Envoloping will be added if I ever put in a separate volume control.
+There are two threads. The first uses ALSA to play notes generated with additive synthesis. Envelopes were never implemented as it was agreed upon by members of the class that cutting the sound wave off sounded crisper. Enveloping will be added if I ever put in a separate volume control.
 
 The second thread uses openCV to get the webcam image and check the piano-key regions for the presence of the finger of the pianist.
 
-How to use: Place 
+How to use: Place your finger over the left most box. Cover the box completely. Press "c" to sample your finger. You might need to supply a background like a jacket or something that is not the same color as your finger. You may begin to play. Adjust the sliders to change the threshold of what the computer believes to be your finger.
